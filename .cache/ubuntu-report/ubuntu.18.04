@@ -1,0 +1,77 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "Timi",
+    "Product": "TM1701",
+    "Family": "Timibook"
+  },
+  "BIOS": {
+    "Vendor": "INSYDE Corp.",
+    "Version": "XMAKB5R0P0C07"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "8",
+    "Threads": "2",
+    "Cores": "4",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "142",
+    "Stepping": "10",
+    "Name": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "5917"
+    }
+  ],
+  "RAM": 16.3,
+  "Partitions": [
+    490.7,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "344mmx194mm",
+      "Resolution": "1920x1080",
+      "Frequency": "60.03"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "zh_CN",
+  "Timezone": "Asia/Harbin",
+  "Install": {
+    "Media": "Ubuntu 18.04.3 LTS \"Bionic Beaver\" - Release amd64 (20190805)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "reinstall_partition",
+    "DownloadUpdates": true,
+    "Language": "zh_CN",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "10": "console_setup",
+      "12": "wireless",
+      "168": "prepare",
+      "173": "partman",
+      "178": "partman",
+      "186": "partman",
+      "191": "start_install",
+      "274": "timezone",
+      "303": "usersetup",
+      "331": "user_done",
+      "739": "done"
+    }
+  }
+}

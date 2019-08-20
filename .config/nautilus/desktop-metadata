@@ -1,0 +1,24 @@
+[directory]
+nautilus-icon-view-keep-aligned=true
+nautilus-icon-view-layout-timestamp=1566260802
+nautilus-desktop-icon-size=48
+
+[Ubuntu 18.0.volume]
+nautilus-icon-position-timestamp=1565841017
+nautilus-icon-position=56,26
+icon-scale=1
+
+[trash]
+nautilus-icon-position-timestamp=1566260802
+nautilus-icon-position=56,166
+icon-scale=1
+
+[EVA TL00.volume]
+nautilus-icon-position=56,406
+icon-scale=1
+nautilus-icon-position-timestamp=1565921671
+
+[XDISK.volume]
+nautilus-icon-position=56,406
+icon-scale=1
+nautilus-icon-position-timestamp=1566009883
